@@ -451,7 +451,7 @@ p{
   }
 }
 
-/*DESKTOP*/
+/*DESKTOP 1024*/
 @media(min-width: 1024px){
   /*HEADER*/
   .container-menu {
@@ -484,4 +484,50 @@ p{
   }
 }
 
+/*DESKTOP 1440*/
+@media(min-width: 1024px){
+  /*NOSSAS LOJAS*/
+  .container-lojas {
+      width: 93%;
+  }
 
+  /*NOSSAS LOJAS*/
+  .lojas {
+    padding-top: 23px;
+    padding-bottom: 60px;
+  }
+
+  .lojas-titulo h1{
+    font-size: 2em;
+  }
+
+  .lojas button {
+    border-radius: 8px;
+    height: 40px;
+    width: 18%;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  /*PROGRAMAÇÃO CINEMARK*/
+  .secao-filmes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .programacao-titulo h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  /*FOOTER*/
+  .rodape ul {
+    padding-left: 140px;
+    gap: 70px;
+  }
+
+  .rodape ul li a{
+    font-size: 1.2em;
+  }
+}
